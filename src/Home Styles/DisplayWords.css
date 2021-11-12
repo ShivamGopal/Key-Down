@@ -1,0 +1,64 @@
+.algn{
+  margin:30px 60px 0px 60px;
+  font-family: 'Ubuntu Mono', monospace, sans-serif;
+}
+
+@media only screen and (min-width:800px) {
+  .algn{
+    margin:30px 110px 0px 110px;
+    font-family: 'Ubuntu Mono', monospace, sans-serif;
+  }
+}
+
+.size-0{
+  font-size: 1.9rem;
+}
+
+.size-1{
+  font-size: 2.35rem;
+}
+
+.size-2{
+  font-size: 2.9rem;
+}
+
+.curr-letter{
+  animation-name: blink;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function:ease-in-out;
+}
+@keyframes blink {
+  from {background-color: black;
+    color:white}
+  to {background-color: #eee;
+    color:black}
+}
+
+.curr-letter-dark{
+  animation-name: blink-dark;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function:ease-in-out;
+}
+@keyframes blink-dark {
+  from {background-color: #eee;
+    color:black}
+  to {background-color: black;
+    color:white}
+}
+
+.correct{
+  color:#999;
+}
+.correct-dark{
+  color:#444;
+}
+
+.incorrect{
+  color:red;
+}
+
+.inactive{
+  color:#666;
+}

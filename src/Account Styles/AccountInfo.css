@@ -1,0 +1,71 @@
+.account-info{
+  font-family: 'Mulish',Arial, Helvetica, sans-serif;
+  margin-top:1rem;
+}
+
+.display-username{
+  text-align: center;
+}
+
+.account-info-fieldset{
+  border:0.1px solid #666;
+  border-radius: 5px;
+  margin: 0px 50px 20px 50px;
+  height: auto;
+}
+
+.account-info-legend{
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+}
+
+.logout-btn{
+  font-family: 'Mulish',Arial, Helvetica, sans-serif;
+  font-size:1.1rem;
+  width:7rem;
+  height:2rem;
+  border:none;
+  background-color:black;
+  color:white;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+.logout-btn:hover{
+  background-color: #444;
+}
+
+.logout-btn-dark{
+  font-family: 'Mulish',Arial, Helvetica, sans-serif;
+  font-size:1.1rem;
+  width:7rem;
+  height:2rem;
+  border:none;
+  background-color:white;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+
+.logout-btn-dark:hover{
+  background-color: #bbb;
+}
+
+.logout-icon{
+  color:white;
+  font-size:1.5rem;
+  padding-right:0.7rem;
+  padding-top:0.2rem;
+}
+.logout-icon-dark{
+  color:black;
+  font-size:1.5rem;
+  padding-right:0.7rem;
+  padding-top:0.2rem;
+}
+
+.logout-text{
+  position: relative;
+  bottom:0.35rem;
+  right:0.4rem;
+}
+
+

@@ -1,0 +1,40 @@
+.about-page{
+  font-family: 'Mulish',Arial, Helvetica, sans-serif;
+  margin:1rem 2rem 1rem 2rem;
+}
+
+.keybr-link{
+  text-decoration: none;
+  color:darkcyan;
+  margin-left: 2px;
+}
+.keybr-link:hover{
+  text-decoration: underline;
+}
+
+.github{
+  color:black;
+  font-size: 2.5rem;
+  margin-top:1rem;
+  margin-right:1rem;
+}
+.github-dark{
+  color:white;
+  font-size: 2.5rem;
+  margin-top:1rem;
+  margin-right:1rem;
+}
+
+.linkedin{
+  color:rgb(26, 57, 197);
+  font-size: 2.5rem;
+  margin-top:1rem;
+  margin-right:1rem;
+}
+.linkedin-dark{
+  color:#3366ff;
+  font-size: 2.5rem;
+  margin-top:1rem;
+  margin-right:1rem;
+}
+

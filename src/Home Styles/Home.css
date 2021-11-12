@@ -1,0 +1,23 @@
+.hidden{
+  font-family: 'Mulish', sans-serif;
+  background-color: #ddd;
+  display: block;
+  border: none;
+  outline:none;
+  padding-top:10px;
+  margin-left: 40% ;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+.hidden-dark{
+  color:#aaa;
+  font-family: 'Mulish', sans-serif;
+  background-color: #222;
+  display: block;
+  border: none;
+  outline:none;
+  padding-top:10px;
+  margin-left: 40%;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}

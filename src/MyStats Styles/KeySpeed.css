@@ -1,0 +1,11 @@
+.mystats-char-speed{
+  width:1.5rem;
+  height:1.5rem;
+  font-size: 1.1rem;
+}
+
+.mystats-keyspeed{
+  text-align: center;
+  margin-top:1rem; 
+  margin-bottom: 3rem;
+}

@@ -1,0 +1,167 @@
+.settings{
+  margin-bottom: 2.5rem;
+}
+
+.set-title{
+  font-family: 'Mulish',Arial, Helvetica, sans-serif;
+  font-size: 1.3rem;
+  margin-top:10px;
+  text-align: center;
+}
+
+.settings-fieldset{
+  border:0.1px solid #666;
+  border-radius: 5px;
+  margin: 0px 50px 10px 50px;
+  height:auto;
+}
+
+.settings-legend{
+  font-family: 'Mulish',Arial,sans-serif;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+}
+
+.form1{
+  padding:5px 5px 15px 5px;
+}
+
+.label-1{
+  font-family: 'Mulish',Arial,sans-serif;
+  font-size:1.1rem;
+  vertical-align:7px;
+  margin-right:40px;
+}
+
+#capital, #punctuation{
+  width:25px;
+  height:25px;
+  margin:5px;
+}
+
+#select-all{
+  width: 35px;
+  height: 35px;
+  margin-left:40%;
+  margin-bottom: 25px;
+}
+
+.set-details{
+  font-family: 'Mulish',Arial, Helvetica, sans-serif;
+  font-size:1.05rem;
+  padding-bottom:10px;
+  margin:2px;
+  text-align: center;
+}
+
+.label-2{
+  font-family: 'Mulish',Arial, Helvetica, sans-serif;
+  font-size: 1.1rem;
+  vertical-align: 12px;
+}
+
+.display-alphabets{
+  display: inline-block;
+  width: 120px;
+}
+
+.checkbox-2{
+  width:25px;
+  height:25px;
+  margin:5px;
+}
+
+.label-3{
+  font-family: 'Mulish',Arial, Helvetica, sans-serif;
+  font-size:1.1rem;
+  vertical-align: 7px;
+}
+
+.submit{
+  display: flex;
+  justify-content: space-around;
+  margin-top:30px;
+}
+
+.submit-btn{
+  font-family: 'Mulish',Arial, Helvetica, sans-serif;
+  font-size:1.1rem;
+  font-weight: bolder;
+  width:250px;
+  height:50px;
+  box-sizing: border-box;
+  margin:-10px 20px;
+  border-radius: 5px;
+  border:none;
+  background-color: #444;
+  color:white;
+}
+.submit-btn:hover{
+  background-color: #000;
+  cursor: pointer;
+}
+
+.submit-btn-dark{
+  font-family: 'Mulish',Arial, Helvetica, sans-serif;
+  font-size:1.1rem;
+  font-weight: bolder;
+  width:250px;
+  height:50px;
+  box-sizing: border-box;
+  margin:-10px 20px;
+  border-radius: 5px;
+  background-color: #999;
+  color:#222;
+  border:none;
+}
+.submit-btn-dark:hover{
+  background-color: #ddd;
+  cursor: pointer;
+}
+
+.sliders{
+  display: flex;
+  justify-content: space-between;
+}
+
+.slider-1{
+  display: block;
+  -webkit-appearance: none;
+  appearance: none;
+  outline:none;
+  width: 200px;
+  height:5px;
+  border-radius: 10px;
+  background-color: #777;
+  margin-bottom:12px;
+}
+
+.slider-1:hover{
+  background-color: #111;
+}
+
+.slider-1-dark:hover{
+  background-color: #999;
+}
+.slider-1::-webkit-slider-thumb{
+  -webkit-appearance: none;
+  appearance: none;
+  width:25px;
+  height:25px;
+  background: #fff;
+  cursor: pointer;
+  border-radius: 50%;
+  opacity: 0.8;
+}
+.slider-1::-moz-range-thumb{
+  width:25px;
+  height:25px;
+  background: #fff;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.label-4{
+  font-family: 'Mulish',Arial, Helvetica, sans-serif;
+  font-size:1.1rem;
+}

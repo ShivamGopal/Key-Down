@@ -1,0 +1,31 @@
+.stats-2{
+  margin:30px;
+  margin-top:0px;
+  margin-bottom: 10px;
+  font-family: 'Mulish',Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  padding-bottom: 3px;
+  border-bottom: 0.5px solid #aaa;
+}
+
+.stats-2-dark{
+  margin:30px;
+  margin-top:0px;
+  margin-bottom: 10px;
+  font-family: 'Mulish',Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  padding-bottom: 3px;
+  border-bottom: 0.5px solid #444;
+}
+
+.test-char{
+  font-family: 'Mulish',Arial, Helvetica, sans-serif;
+  font-size: 1.05rem;
+  color:black;
+}
+
+.test-char-dark{
+  font-family: 'Mulish',Arial, Helvetica, sans-serif;
+  font-size: 1.05rem;
+  color:#aaa;
+}

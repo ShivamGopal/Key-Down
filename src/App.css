@@ -1,38 +1,124 @@
-.App {
+/*fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&family=Ubuntu+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
+
+/*styles*/
+@import './Home Styles/DisplayWords.css';
+@import './Home Styles/ShowPrevResults.css';
+@import './Home Styles/ShowTestChar.css';
+@import './Home Styles/ShowCharSpeed.css';
+@import './Home Styles/Settings.css';
+@import './Home Styles/Home.css';
+@import './Layout Styles/NavBar.css';
+@import './Account Styles/Login.css';
+@import './Account Styles/AccountInfo.css';
+@import './MyStats Styles/MyStats.css';
+@import './Loading Styles/Loading.css';
+@import './GlobalStats Styles/AverageSpeed.css';
+@import './About Styles/About.css';
+@import './SearchUser Styles/SearchUser.css';
+@import './SearchUser Styles/SearchRes.css';
+@import './MyStats Styles/Profile.css';
+@import './MyStats Styles/KeySpeed.css';
+
+html,body{
+  font-family: 'Ubuntu Mono', monospace, sans-serif;
+  box-sizing: border-box;
+  min-height: 100%;
+  min-width: 100%;
+}
+
+@media only screen and (max-width:600px) {
+  html,body{
+    font-size:14.5px;
+  }  
+}
+@media only screen and(min-width:600px){
+  html,body{
+    font-size:15.5px;
+  }
+}
+@media only screen and(min-width:800px){
+  html,body{
+    font-size:16.5px;
+  }
+}
+@media only screen and (min-width:1000px){
+  html,body{
+    font-size:17.5px;
+  }
+}
+
+.App{
+  min-width: 100%;
+  min-height:100vh;
+}
+
+.theme{
+  width:fit-content;
+  background-color: #ddd;
+  color: black;
+}
+.theme-dark{
+  width:fit-content;
+  background-color: #222;
+  color:#999;
+}
+
+.top{
+  box-sizing: border-box;
+  height:15vh;
+  min-height:100px;
+  max-height:120px;
+  width: 100%;
+  border-bottom:1px solid #bbb;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.columns{
+  margin:0px;
+  display:flex;
+  box-sizing: border-box;
+  min-height:70vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.left{
+  width:15%;
+  min-width:170px;
+  max-width:220px;
+  border-right: 1px solid #bbb;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.center{
+  min-height: 480px;
+  width:70%;
+  box-sizing: border-box;
+  border-right: 1px solid #bbb;
+  min-width:870px;
 }
 
-.App-link {
-  color: #61dafb;
+.bottom{
+  height: 10vh;
+  min-height:70px;
+  width: 100%;
+  border-top:1px solid #bbb;
+  text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bottom-text{
+  font-family: 'Mulish',Arial, Helvetica, sans-serif;
+  margin-top:8px;
 }
+
+.bottom-mailid{
+  color:darkcyan;
+  text-decoration:none;
+  margin-left:0.2rem;
+}
+.bottom-mailid:hover{
+  text-decoration: underline;
+}
+
+

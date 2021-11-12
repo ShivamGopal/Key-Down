@@ -1,0 +1,51 @@
+.icons{
+  box-sizing: border-box;
+  text-align: right;
+  margin-bottom:-50px;
+  margin-right:30px;
+  margin-top:30px;
+}
+
+.icon{
+  margin-left:10px;
+  cursor: pointer;
+  color:#222;
+  font-size: 1.7rem;
+}
+.icon-dark{
+  margin-left:10px;
+  cursor: pointer;
+  color:#aaa;
+  font-size: 1.7rem;
+}
+
+.stats{
+  box-sizing: border-box;
+  font-family: 'Mulish',sans-serif;
+  font-weight:lighter;
+  margin:30px;
+  margin-bottom: 0px;
+  border-bottom:0.5px solid #aaa;
+  padding-bottom:3px;
+  font-size: 1rem;
+}
+
+.stats-dark{
+  box-sizing: border-box;
+  font-family: 'Mulish',sans-serif;
+  font-weight: lighter;
+  margin:30px;
+  margin-bottom: 0px; 
+  border-bottom:0.5px solid #444;
+  padding-bottom:3px;
+  font-size: 1rem;
+}
+
+.output{
+  color:black;
+  font-size: 1.3rem;
+}
+.output-dark{
+  color:#aaa;
+  font-size:1.3rem;
+}

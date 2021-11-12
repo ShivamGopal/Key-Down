@@ -1,0 +1,37 @@
+.loading{
+  width: 0rem;
+  height: 0rem;
+  margin:0 auto;
+  border:0.2rem solid #f3f3f3;
+  border-top: 0.2rem solid #0040ff;
+  border-radius: 50%;
+  animation: spin 1.5s linear infinite;
+  -webkit-animation: spin 2s linear infinite; /* for Safari */
+}
+@keyframes spin {
+  0% {transform: rotate(0deg);}
+  100% {transform:rotate(360deg);}
+}
+/* for Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+.loading-login{
+  width:1.5rem;
+  height:1.5rem;
+  margin-top:2rem;
+  margin-bottom: -1rem;
+}
+
+.loading-navbar{
+  width:1rem;
+  height:1rem;
+}
+
+.loading-home{
+  width:4rem;
+  height:4rem;
+  margin-top:10rem;
+}

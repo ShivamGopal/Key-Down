@@ -1,0 +1,132 @@
+.icon-align{
+  text-align: center;
+}
+.search-icon{
+  position: relative;
+  font-size: 1.5rem;
+  bottom:4rem;
+  right:11.2rem;
+  color:black;
+}
+.search-icon-dark{
+  position: relative;
+  font-size: 1.5rem;
+  bottom:4rem;
+  right:11.2rem;
+  color:white;
+}
+
+.search-input{
+  font-family: 'Mulish',Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  display: block;
+  width:25rem;
+  height:2.5rem;
+  border-radius: 5px;
+  outline: none;
+  border:none;
+  padding-left:2.5rem;
+  margin:2rem auto;
+  color:black;
+}
+.search-input-dark{
+  font-family: 'Mulish',Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  display: block;
+  width:25rem;
+  height:2.5rem;
+  border-radius: 5px;
+  outline: none;
+  border:none;
+  padding-left:2.5rem;
+  margin:2rem auto;
+  background-color: black;
+  color:white;
+}
+
+.search-input-dark:focus,.search-input:focus{
+  outline:3px solid lightgreen;
+}
+.search-input-dark::placeholder{
+  color:#aaa;
+}
+
+.search-result{
+  font-family: 'Mulish',Arial, Helvetica, sans-serif;
+  text-align: center;
+  position: relative;
+  top:-2rem;
+  font-size: 1.2rem;
+}
+
+.search-username{
+  cursor: pointer;
+  display: block;
+  width:10rem;
+  overflow:auto;
+  margin:auto;
+  margin-bottom: 2px;
+  padding:0.2rem 0;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.search-username:hover{
+  background-color: #aaa;
+  color:darkcyan;
+  text-decoration: underline;
+}
+
+.search-username-dark{
+  cursor: pointer;
+  display: block;
+  width:10rem;
+  overflow:auto;
+  margin:auto;
+  margin-bottom: 2px;
+  padding:0.2rem 0;
+  border-radius: 10px;
+  background-color: #111;
+  color:white;
+}
+
+.search-username-dark:hover{
+  background-color: #444;
+  color:darkcyan;
+  text-decoration: underline;
+}
+
+.search-showmore{
+  cursor: pointer;
+  width: 8rem;
+  height: 2rem;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  font-family: 'Mulish',Arial, Helvetica, sans-serif;
+  border:none;
+  margin-top: 1rem;
+  background-color: #bbb;
+}
+
+.search-showmore:hover{
+  background-color: #999;
+  outline:1px solid #666;
+}
+
+.search-showmore-dark{
+  cursor: pointer;
+  width: 8rem;
+  height: 2rem;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  font-family: 'Mulish',Arial, Helvetica, sans-serif;
+  border:none;
+  margin-top: 1rem;
+  background-color: #000;
+  color:white;
+}
+
+.search-showmore-dark:hover{
+  background-color: #444;
+  outline:1px solid #666;
+}

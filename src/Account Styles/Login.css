@@ -1,0 +1,173 @@
+.login{
+  font-family:'Mulish',Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.login-image{
+  margin-top:1rem;
+  margin-bottom: -1rem;
+}
+.loading-margin{
+  margin-top: 2rem;
+  margin-bottom: 0rem;
+}
+
+.login-label{
+  display: block;
+  font-size:1.5rem;
+}
+
+.login-input{
+  height:2rem;
+  width:17rem;
+  margin-top:0.8rem;
+  margin-bottom: 1.2rem;
+  padding-right:2rem;
+  padding-left:2rem;
+  border:none;
+  border-radius: 5px;
+  font-size:1rem;
+  font-family: 'Mulish',Arial, Helvetica, sans-serif;
+}
+
+.icon-people{
+  position: relative;
+  top:4.7rem;
+  right:8.2rem;
+  font-size:1.5rem;
+  color:black;
+}
+
+.icon-password{
+  position: relative;
+  top:10.6rem;
+  right:9.5rem;
+  font-size:1.1rem;
+  color:black;
+}
+.icon-password-register{
+  position: relative;
+  top:12rem;
+  right:9.5rem;
+  font-size:1.1rem;
+  color:black;
+}
+
+.icon-show-hide{
+  position: relative;
+  top:10.6rem;
+  left:8rem;
+  font-size:1.1rem;
+  color:black;
+}
+.icon-show-hide-register{
+  position: relative;
+  top:12rem;
+  left:8rem;
+  font-size:1.1rem;
+  color:black;
+}
+
+.icon-verified{
+  position:relative;
+  font-size:1.5rem;
+  bottom:8.5rem;
+  left:12rem;
+  color:green;
+}
+.icon-verified-dark{
+  position:relative;
+  font-size:1.5rem;
+  bottom:8.5rem;
+  left:12rem;
+  color:rgb(12, 255, 12);
+}
+
+.icon-verified-username{
+  position:relative;
+  font-size:1.5rem;
+  bottom:17.6rem;
+  left:12rem;
+  color:green;
+}
+
+.icon-verified-username-dark{
+  position:relative;
+  font-size:1.5rem;
+  bottom:17.6rem;
+  left:12rem;
+  color:rgb(12, 255, 12);
+}
+
+.icon-hidden{
+  position:relative;
+  font-size:1.37rem;
+  bottom:8.5rem;
+  left:12rem;
+  color:rgb(12, 255, 12);
+  opacity: 0;
+}
+
+
+.login-input:focus{
+  outline:3px solid rgb(118, 118, 207);
+}
+.login-input::placeholder{
+  color:#444;
+}
+
+.login-submit{
+  font-family: 'Mulish',Arial, Helvetica, sans-serif;
+  width: 8rem;
+  height:2rem;
+  margin-top:1rem;
+  color:white;
+  background-color: black;
+  border:none;
+  border-radius: 5px;
+  font-size:1.2rem;
+  cursor: pointer;
+}
+.login-submit-dark{
+  font-family: 'Mulish',Arial, Helvetica, sans-serif;
+  width: 8rem;
+  height:2rem;
+  margin-top:1rem;
+  color:black;
+  background-color: white;
+  border:none;
+  border-radius: 5px;
+  font-size:1.2rem;
+  cursor: pointer;
+}
+.login-submit:hover{
+  background-color: #222;
+}
+.login-submit-dark:hover{
+  background-color: #ddd;
+}
+
+.change-sign-in{
+  margin-top:1rem;
+  font-size: 1.2rem;
+}
+.change-register{
+  color:darkcyan;
+  cursor: pointer;
+}
+.change-register:hover{
+  font-weight: 900;
+  text-decoration: underline;
+}
+
+.pass-length-warn{
+  margin-top:-1rem;
+  font-size:0.9rem;
+}
+
+.username-warn{
+  font-size:0.9rem;
+  position: relative;
+  bottom:15.5rem;
+  left:18rem;
+}

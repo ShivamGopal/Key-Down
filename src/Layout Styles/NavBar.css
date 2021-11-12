@@ -1,0 +1,98 @@
+.right{
+  width:15%;
+  min-width:200px;
+  max-width:250px;
+  position: -webkit-sticky;
+  position:sticky;
+  top: 0;
+  align-self: flex-start;
+}
+
+.sign-in-circle{
+  display:flex;
+  margin: auto;
+  height:4rem;
+  width:4rem;
+  border:2px solid #ff0000;
+  border-radius: 50%;
+  margin-bottom:5px;
+}
+.sign-in-circle-border{
+  border:2px solid #009900;
+}
+
+.login-icon{
+  font-size: 2.7rem;
+  margin-left:0.65rem;
+  margin-top:0.5rem;
+}
+
+.login-initials{
+  font-size:2rem;
+  font-weight: 1000;
+  margin:auto;
+}
+
+.nav-icons{
+  display:flex;
+  justify-content: center;
+  padding:10px;
+  margin-left:20px;
+  margin-right:20px;
+  border-bottom:1px solid #aaa;
+}
+.nav-icons-dark{
+  display:flex;
+  justify-content: center;
+  padding:10px;
+  margin-left:20px;
+  margin-right:20px;
+  border-bottom:1px solid #666;
+}
+
+.nav-link{
+  font-family:'Mulish',Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  display: block;
+  border-bottom:1px solid #aaa;
+  padding:10px;
+  text-align: left;
+  margin-left:20px;
+  margin-right:20px;
+  color:#000;
+}
+.nav-link-dark{
+  font-family:'Mulish',Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  display: block;
+  border-bottom:1px solid #666;
+  padding:10px;
+  text-align: left;
+  margin-left:20px;
+  margin-right:20px;
+  color:#999;
+}
+
+.nav-link:hover{
+  background-color: #ccc;
+}
+
+.nav-link-dark:hover{
+  background-color: #444;
+}
+
+.nav-link-active{
+  background-color: #ccc;
+  color:#000066;
+}
+.nav-link-active-dark{
+  background-color: #444;
+  color:#33adff;
+}
+
+.link-icon{
+  font-size: 1.25rem;
+  vertical-align: -4px;
+  margin-right:8px;
+}
+
