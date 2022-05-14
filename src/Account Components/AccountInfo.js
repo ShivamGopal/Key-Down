@@ -66,10 +66,7 @@ const AccountInfo = ({setGlobalLoggedIn,getUserList,darkMode}) => {
             Account Actions
           </legend>
           <p>
-            Your data is stored with us and you can access your account anywhere using your username and password.
-          </p>
-          <p>
-            To Logout click the button below. Note that your typing stats will only be stored by us when you are logged in.
+            Your data is stored with us and you can access your account anywhere using your username and password.<br />To logout click the button below. Note that your typing stats will only be stored by us when you are logged in.
           </p>
           <button onClick={handleLogout} className={`${darkMode?'logout-btn-dark':'logout-btn'}`}>
             <IoLogOutOutline className={`${darkMode?'logout-icon-dark':'logout-icon'}`} />
@@ -81,8 +78,7 @@ const AccountInfo = ({setGlobalLoggedIn,getUserList,darkMode}) => {
             Delete Account
           </legend>
           <p>
-            To Delete your account click the button below. Note that once you delete your account all your typing data will be deleted and it data cannot be recovered.
-            Make sure you completely understand the consequences before proceeding.
+            To delete your account click the button below. Note that once you delete your account all your typing data will be deleted and it cannot be recovered.Make sure you completely understand the consequences before proceeding.
           </p>
           <button onClick={handleDelete} className={`${darkMode?'logout-btn-dark':'logout-btn'}`}>
             <FaTrashAlt className={`${darkMode?'logout-icon-dark':'logout-icon'}`} style={{fontSize:'1.2rem'}} />
